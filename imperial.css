@@ -1,0 +1,141 @@
+/* configuration */
+:root {
+  /* 8.0px */
+  --font-size: 8.4px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #222;
+  font-family: "Work Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: auto;
+}
+
+body {
+  padding: 47px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+h2,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-top: 1em;
+
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: normal;
+  margin-top: 0;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-top: 1em;
+}
+
+/* underlines */
+h2 {
+  border-bottom: 1px solid #222;
+  border-bottom-style: solid;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: .5em;
+}
+
+
+
+p {
+  margin-top: .5em;
+}
+
+b,
+strong {
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+
+a {
+  color: #222;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+ul,
+ol {
+  margin-top: .5em;
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: none;
+  position: relative;
+}
+
+ul li::before {
+  left: -16px;
+  position: absolute;
+}
+
+ul li::before,
+ol li::before {
+  content: '-';
+  font-weight: bold;
+  margin-right: .5em;
+}
+
+li>p {
+  margin-top: 0;
+}
+
+table th,
+table tr {
+  font-weight: normal;
+}
+
+table {
+  margin-top: .5em;
+  table-layout: fixed;
+  width: 100%;
+}
