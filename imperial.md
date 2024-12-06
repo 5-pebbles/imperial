@@ -35,7 +35,7 @@ I was also responsible for developing meal plans, equipment lists, etc. and reso
 |||||||
 |---------------|:--------:|:----------:|:----------:|:-----------------:|:---------:|
 | **Languages** | **Rust** | **Python** |  **Lua**   |      **C#**       |  **SQL**  |
-|   **Tools**   | **Git**  | **Linux**  | **Docker** | **Google Sheets** | **Helix** |
+|   **Tools**   | **Git**  | **Linux**  | **Docker** | **Google Sheets** | **Documentation** |
 
 
 ## Education
